@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4ecdd">
+  <title>Saad &amp; Sana — Barat Invitation</title>
+  <meta name="description" content="You are invited to the Barat of Saad Idrees & Sana Usman — Sunday, 8th November 2026.">
+  <meta property="og:title" content="Saad & Sana — Barat Invitation">
+  <meta property="og:description" content="Sunday, 8th November 2026. Tap to open your invitation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    /* ===== EDIT YOUR DETAILS HERE ===== */
+    window.INVITE = {
+      title: "Barat — Saad Idrees & Sana Usman",
+      date: "2026-11-08T19:00:00+05:00",   // 8 Nov 2026, 7:00 PM (Pakistan time)
+      durationHours: 5,
+      venue: {
+        name: "Venue Name",                 // e.g. "Royal Palm Marquee"
+        address: "Venue address, City",
+        mapQuery: "Lahore, Pakistan",       // what to search on Google Maps
+        mapsLink: ""                        // optional: paste a Google Maps share link
+      },
+      rsvpPhone: "923127861607",                      // WhatsApp number with country code, e.g. "923001234567"
+      calendarNote: "Barat of Saad Idrees & Sana Usman",
+      introMs: 3400
+    };
+  </script>
+</head>
+<body class="theme-barat">
+  <div class="backdrop"></div>
+
+  <!-- ============ INTRO: sealed envelope ============ -->
+  <div class="intro" id="intro" role="button" tabindex="0" aria-label="Open the invitation">
+    <div class="env-glow"></div>
+    <div class="env-piece env-left"><div></div></div>
+    <div class="env-piece env-right"><div></div></div>
+    <div class="env-piece env-bottom"><div></div></div>
+    <div class="env-piece env-top"><div></div></div>
+    <div class="env-shine"></div>
+    <div class="seal-wrap">
+      <button class="seal" data-wax aria-hidden="true" tabindex="-1"><span>S&amp;S</span></button>
+    </div>
+    <p class="intro-hint">Tap the seal to open</p>
+  </div>
+
+  <main class="invite">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="flora tl" data-flora></div>
+      <div class="flora tr" data-flora></div>
+      <div class="flora bl" data-flora></div>
+      <div class="flora br" data-flora></div>
+      <div class="lantern l1"><svg><use href="#i-lantern"/></svg></div>
+      <div class="lantern l2"><svg><use href="#i-lantern"/></svg></div>
+
+      <div class="arch reveal">
+        <div class="arch-fill">
+          <!-- Couple photo: Unsplash (free licence) -->
+          <div class="arch-photo" style="background-image:url('assets/barat-couple.jpg')"></div>
+        </div>
+        <svg class="arch-line" viewBox="0 0 300 470" preserveAspectRatio="none">
+          <path class="outer" vector-effect="non-scaling-stroke" d="M0 470V175C0 112 52 80 104 61C131 51 144 31 150 0C156 31 169 51 196 61C248 80 300 112 300 175V470"/>
+          <path class="inner" vector-effect="non-scaling-stroke" d="M9 470V179C9 120 57 90 107 71C130 62 143 45 150 18C157 45 170 62 193 71C243 90 291 120 291 179V470"/>
+        </svg>
+        <div class="arch-content">
+          <p class="welcome reveal d1">Welcome to the</p>
+          <p class="event-name script reveal d1">Barat Ceremony</p>
+          <p class="of reveal d2">of</p>
+          <h1 class="names script gold-text reveal d3">Saad Idrees <span class="amp">&amp;</span> Sana Usman</h1>
+          <p class="hero-date caps reveal d4" data-date-short></p>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#invitation">Scroll down<svg><use href="#i-down"/></svg></a>
+    </section>
+
+    <!-- ============ INVITATION TEXT ============ -->
+    <section class="section" id="invitation">
+      <div class="card-arch reveal">
+        <p class="bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+        <p class="caps muted" style="margin:14px 0 4px">In the name of Allah, the Most Gracious, the Most Merciful</p>
+        <div class="divider"><svg><use href="#i-orn"/></svg></div>
+        <p style="margin:0">With the blessings of Allah and the duas of our elders, we request the pleasure of your company at the wedding of</p>
+        <p class="names-big">Saad Idrees</p>
+        <p class="with">with</p>
+        <p class="names-big">Sana Usman</p>
+        <div class="divider"><svg><use href="#i-orn"/></svg></div>
+        <p class="muted" style="margin:0;font-style:italic">“And We created you in pairs.” — Surah An-Naba, 78:8</p>
+      </div>
+      <!-- Photos: Unsplash (free licence) -->
+      <div class="photo-arch reveal" style="margin-top:56px"><img src="assets/barat-rings.jpg" alt="Bride and groom holding hands with henna and rings" loading="lazy"></div>
+      <p class="photo-caption reveal d1">Two hearts, one journey</p>
+    </section>
+
+    <!-- ============ SCRATCH THE DATE ============ -->
+    <section class="section alt">
+      <h2 class="reveal">The Date</h2>
+      <p class="sub reveal">✦ Scratch to reveal the date ✦</p>
+      <div class="scratch-row reveal d1">
+        <div class="scratch" data-part="day"><span class="val"></span></div>
+        <div class="scratch" data-part="month"><span class="val"></span></div>
+        <div class="scratch" data-part="year"><span class="val"></span></div>
+      </div>
+      <div class="scratch-labels reveal d1"><span>Day</span><span>Month</span><span>Year</span></div>
+      <div class="date-extra">
+        <p class="day-name" data-weekday></p>
+        <p class="muted" style="margin:4px 0 0">at <span data-time></span> onwards</p>
+        <a class="btn ghost" data-calendar target="_blank" rel="noopener"><svg><use href="#i-cal"/></svg>Save the date</a>
+      </div>
+    </section>
+
+    <!-- ============ COUNTDOWN ============ -->
+    <section class="section">
+      <h2 class="reveal">Counting Down to Forever</h2>
+      <p class="sub reveal" data-date-long></p>
+      <div class="countdown reveal d1" id="countdown">
+        <div><b data-cd="d">0</b><small>Days</small></div>
+        <div><b data-cd="h">00</b><small>Hours</small></div>
+        <div><b data-cd="m">00</b><small>Minutes</small></div>
+        <div><b data-cd="s">00</b><small>Seconds</small></div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMME ============ -->
+    <section class="section alt">
+      <h2 class="reveal">Wedding Timeline</h2>
+      <p class="sub reveal">The evening’s celebrations</p>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-icon"><span><svg><use href="#i-guests"/></svg></span></div>
+          <div class="t-text"><div class="time">7:00 pm</div><div class="what">Guests Arrival &amp; Welcome</div></div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-icon"><span><svg><use href="#i-drum"/></svg></span></div>
+          <div class="t-text"><div class="time">8:00 pm</div><div class="what">Barat Arrival with Dhol</div></div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-icon"><span><svg><use href="#i-ring"/></svg></span></div>
+          <div class="t-text"><div class="time">8:45 pm</div><div class="what">Bride’s Entrance</div></div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-icon"><span><svg><use href="#i-dinner"/></svg></span></div>
+          <div class="t-text"><div class="time">9:30 pm</div><div class="what">Dinner</div></div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-icon"><span><svg><use href="#i-heart"/></svg></span></div>
+          <div class="t-text"><div class="time">11:00 pm</div><div class="what">Rukhsati</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VENUE ============ -->
+    <section class="section">
+      <h2 class="reveal">The Venue</h2>
+      <div class="venue-photo reveal"><img src="assets/barat-stage.jpg" alt="Ivory wedding hall with floral aisle" loading="lazy"></div>
+      <p class="venue-name reveal" data-venue-name></p>
+      <p class="venue-addr reveal" data-venue-address></p>
+      <div class="map reveal d1" id="map"></div>
+      <a class="btn reveal" data-directions target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Get Directions</a>
+    </section>
+
+    <!-- ============ DRESS CODE ============ -->
+    <section class="section alt">
+      <h2 class="reveal">Dress Code</h2>
+      <p class="sub reveal">Formal Eastern</p>
+      <div class="swatches reveal d1">
+        <span style="background:#f3e7cf"></span>
+        <span style="background:#d8b26a"></span>
+        <span style="background:#e9c7c0"></span>
+        <span style="background:#b9c4a7"></span>
+        <span style="background:#7a1f2b"></span>
+      </div>
+      <p class="reveal d2" style="margin:14px auto 0;max-width:330px">We’d love to see you in ivory, gold, soft pastels or rich maroon.</p>
+    </section>
+
+    <!-- ============ RSVP ============ -->
+    <section class="section">
+      <h2 class="reveal">Kindly RSVP</h2>
+      <p class="sub reveal">Your presence will make our day complete</p>
+      <form class="rsvp-form reveal d1" id="rsvpForm" autocomplete="on">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Full name" required>
+        <label>Will you attend?</label>
+        <div class="choice">
+          <label><input type="radio" name="attending" value="yes" checked><span>Joyfully accept</span></label>
+          <label><input type="radio" name="attending" value="no"><span>Regretfully decline</span></label>
+        </div>
+        <div id="guestsWrap">
+          <label for="guests">Number of Guests</label>
+          <input id="guests" name="guests" type="number" min="1" max="20" value="1" inputmode="numeric">
+        </div>
+        <label for="message">Dua / Message (optional)</label>
+        <textarea id="message" name="message" rows="3" placeholder="Your wishes for the couple"></textarea>
+        <button class="btn" type="submit"><svg><use href="#i-wa"/></svg>Send RSVP on WhatsApp</button>
+      </form>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="section alt closing">
+      <div class="mandala-small reveal" data-mandala></div>
+      <p class="big reveal d1">We can’t wait to celebrate with you</p>
+      <div class="divider reveal d2"><svg><use href="#i-orn"/></svg></div>
+      <p class="script gold-text reveal d2" style="font-size:2.4rem;margin:0">Saad &amp; Sana</p>
+      <p class="footer-note reveal d3">Your presence and duas are the greatest gift.</p>
+    </section>
+  </main>
+
+  <!-- Background music: put an mp3 at assets/music.mp3 (button appears automatically) -->
+  <audio id="bgm" src="assets/music.mp3" loop preload="auto"></audio>
+  <button class="music" id="musicBtn" aria-label="Play music"></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

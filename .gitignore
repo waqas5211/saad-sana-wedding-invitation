@@ -1,0 +1,4 @@
+# Reference videos (not part of the site)
+*.mp4
+node_modules/
+.DS_Store

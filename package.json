@@ -1,0 +1,13 @@
+{
+  "name": "saad-sana-wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mehndi & Barat invitation websites for Saad Idrees & Sana Usman",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

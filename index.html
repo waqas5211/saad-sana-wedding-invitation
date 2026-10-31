@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4ecdd">
+  <title>Saad &amp; Sana — Wedding Invitations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .events { display: grid; gap: 22px; max-width: 360px; margin: 26px auto 0; }
+    .event-card {
+      display: block; text-decoration: none; color: inherit;
+      padding: 44px 22px 30px;
+      border-radius: 110px 110px 16px 16px;
+      box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--gold-light), 0 16px 36px rgba(90,65,25,.15);
+      transition: transform .3s;
+    }
+    .event-card:active { transform: scale(.98); }
+    .event-card.mehndi { background: linear-gradient(180deg, #1d4f2e, #0f2f1c); color: #f6e7b4; }
+    .event-card.barat { background: linear-gradient(180deg, #fffaf1, #f3e6cc); }
+    .event-card .script { font-size: 2.6rem; margin: 6px 0; }
+    .event-card.mehndi .script { color: #f6dc86; }
+    .event-card.barat .script { color: var(--gold-deep); }
+    .event-card .caps { opacity: .85; }
+    .event-card p { margin: 4px 0; font-size: 1.1rem; }
+  </style>
+</head>
+<body class="theme-barat">
+  <div class="backdrop"></div>
+  <main class="invite">
+    <section class="section" style="padding-top:12vh">
+      <div class="mandala-small" data-mandala style="width:90px;color:var(--gold)"></div>
+      <p class="caps muted" style="margin:10px 0 0">The wedding of</p>
+      <h1 class="script gold-text" style="font-size:clamp(2.8rem,13vw,3.6rem);font-weight:400;margin:.15em 0">Saad &amp; Sana</h1>
+      <div class="divider"><svg><use href="#i-orn"/></svg></div>
+      <div class="events">
+        <a class="event-card mehndi" href="mehndi.html">
+          <span class="caps">Thursday · 5 November</span>
+          <p class="script">Mehndi</p>
+          <p style="font-style:italic">of Sana Usman</p>
+        </a>
+        <a class="event-card barat" href="barat.html">
+          <span class="caps">Sunday · 8 November</span>
+          <p class="script">Barat</p>
+          <p style="font-style:italic">Saad Idrees &amp; Sana Usman</p>
+        </a>
+      </div>
+      <p class="footer-note">Tap an event to open its invitation</p>
+    </section>
+  </main>
+  <script>window.INVITE = { date: "2026-11-08T19:00:00+05:00" };</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
